@@ -1,5 +1,6 @@
 // --- IMPLEMENTACIÓN DE ESTRUCTURAS DE DATOS ---
 //Probando implementacion de ramas :chepe
+//no pulpo no
 
 class Nodo {
     constructor(data) {
