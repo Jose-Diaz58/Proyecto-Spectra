@@ -6,8 +6,8 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 // Estas variables se inyectarán a través de Vercel y se accederán vía window
 // Si estás probando localmente, reemplaza 'TU_...' con tus credenciales reales
-const SUPABASE_URL = window.SUPABASE_URL_ENV || 'TU_URL_DE_PROYECTO';
-const SUPABASE_ANON_KEY = window.SUPABASE_ANON_KEY_ENV || 'TU_CLAVE_ANON';
+const SUPABASE_URL = window.SUPABASE_URL_ENV || 'https://beouwknuzqfqmwefnmgw.supabase.co';
+const SUPABASE_ANON_KEY = window.SUPABASE_ANON_KEY_ENV || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJlb3V3a251enFmcW13ZWZubWd3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ2ODQ5MDgsImV4cCI6MjA4MDI2MDkwOH0.mXPdVoue0C_ggHYsh3nJ6Tf7NZgTWSGLxcTkXeWVTLE';
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
