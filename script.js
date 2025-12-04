@@ -11,7 +11,6 @@ const SUPABASE_ANON_KEY = window.SUPABASE_ANON_KEY_ENV || 'eyJhbGciOiJIUzI1NiIsI
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-//a en el negro les gustan las peruanas negras como el 
 
 // --- IMPLEMENTACIÓN DE ESTRUCTURAS DE DATOS ---
 // (Clases Nodo, DoublyLinkedList, Stack, Queue NO MODIFICADAS)
